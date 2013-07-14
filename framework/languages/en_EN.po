@@ -1,0 +1,843 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: energy 1.0\n"
+"POT-Creation-Date: 2013-05-28 19:16+0200\n"
+"PO-Revision-Date: 2013-05-28 19:16+0200\n"
+"Last-Translator: Artstudioworks <artstudioworks@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:6
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:7
+msgid "Search for what you are looking for."
+msgstr ""
+
+#: 404.php:14 footer.php:31 search.php:20 framework/inc/sharebox.php:14
+#: framework/inc/titlebar-blog.php:53 framework/inc/titlebar-blog.php:165
+#: framework/inc/titlebar.php:27 framework/inc/titlebar.php:117
+#: framework/inc/titlebar.php:220
+msgid "Twitter"
+msgstr ""
+
+#: 404.php:17 footer.php:34 search.php:23 framework/inc/titlebar-blog.php:56
+#: framework/inc/titlebar-blog.php:168 framework/inc/titlebar.php:30
+#: framework/inc/titlebar.php:120 framework/inc/titlebar.php:223
+msgid "Forrst"
+msgstr ""
+
+#: 404.php:20 footer.php:37 search.php:26 framework/inc/titlebar-blog.php:59
+#: framework/inc/titlebar-blog.php:171 framework/inc/titlebar.php:33
+#: framework/inc/titlebar.php:123 framework/inc/titlebar.php:226
+msgid "Dribbble"
+msgstr ""
+
+#: 404.php:23 footer.php:40 search.php:29 framework/inc/titlebar-blog.php:62
+#: framework/inc/titlebar-blog.php:174 framework/inc/titlebar.php:36
+#: framework/inc/titlebar.php:126 framework/inc/titlebar.php:229
+msgid "Flickr"
+msgstr ""
+
+#: 404.php:26 footer.php:43 search.php:32 framework/inc/sharebox.php:9
+#: framework/inc/titlebar-blog.php:65 framework/inc/titlebar-blog.php:177
+#: framework/inc/titlebar.php:39 framework/inc/titlebar.php:129
+#: framework/inc/titlebar.php:232
+msgid "Facebook"
+msgstr ""
+
+#: 404.php:29 footer.php:46 search.php:35 framework/inc/titlebar-blog.php:68
+#: framework/inc/titlebar-blog.php:180 framework/inc/titlebar.php:42
+#: framework/inc/titlebar.php:132 framework/inc/titlebar.php:235
+msgid "Skype"
+msgstr ""
+
+#: 404.php:32 footer.php:49 search.php:38 framework/inc/sharebox.php:29
+#: framework/inc/titlebar-blog.php:71 framework/inc/titlebar-blog.php:183
+#: framework/inc/titlebar.php:45 framework/inc/titlebar.php:135
+#: framework/inc/titlebar.php:238
+msgid "Digg"
+msgstr ""
+
+#: 404.php:35 footer.php:52 search.php:41 framework/inc/titlebar-blog.php:74
+#: framework/inc/titlebar-blog.php:186 framework/inc/titlebar.php:48
+#: framework/inc/titlebar.php:138 framework/inc/titlebar.php:241
+msgid "Google"
+msgstr ""
+
+#: 404.php:35 footer.php:52 search.php:41 framework/inc/sharebox.php:39
+#: framework/inc/titlebar-blog.php:74 framework/inc/titlebar-blog.php:186
+#: framework/inc/titlebar.php:48 framework/inc/titlebar.php:138
+#: framework/inc/titlebar.php:241
+msgid "Google+"
+msgstr ""
+
+#: 404.php:38 footer.php:55 search.php:44 framework/inc/sharebox.php:19
+#: framework/inc/titlebar-blog.php:77 framework/inc/titlebar-blog.php:189
+#: framework/inc/titlebar.php:51 framework/inc/titlebar.php:141
+#: framework/inc/titlebar.php:244
+msgid "LinkedIn"
+msgstr ""
+
+#: 404.php:41 footer.php:58 search.php:47 framework/inc/titlebar-blog.php:80
+#: framework/inc/titlebar-blog.php:192 framework/inc/titlebar.php:54
+#: framework/inc/titlebar.php:144 framework/inc/titlebar.php:247
+msgid "Vimeo"
+msgstr ""
+
+#: 404.php:44 footer.php:61 search.php:50 framework/inc/titlebar-blog.php:83
+#: framework/inc/titlebar-blog.php:195 framework/inc/titlebar.php:57
+#: framework/inc/titlebar.php:147 framework/inc/titlebar.php:250
+msgid "Yahoo"
+msgstr ""
+
+#: 404.php:47 footer.php:64 search.php:53 framework/inc/titlebar-blog.php:86
+#: framework/inc/titlebar-blog.php:198 framework/inc/titlebar.php:60
+#: framework/inc/titlebar.php:150 framework/inc/titlebar.php:253
+msgid "Tumblr"
+msgstr ""
+
+#: 404.php:50 footer.php:67 search.php:56 framework/inc/titlebar-blog.php:89
+#: framework/inc/titlebar-blog.php:201 framework/inc/titlebar.php:63
+#: framework/inc/titlebar.php:153 framework/inc/titlebar.php:256
+msgid "YouTube"
+msgstr ""
+
+#: 404.php:53 footer.php:70 search.php:59 framework/inc/titlebar-blog.php:92
+#: framework/inc/titlebar-blog.php:204 framework/inc/titlebar.php:66
+#: framework/inc/titlebar.php:156 framework/inc/titlebar.php:259
+msgid "Picasa"
+msgstr ""
+
+#: 404.php:56 footer.php:73 search.php:62 framework/inc/titlebar-blog.php:95
+#: framework/inc/titlebar-blog.php:207 framework/inc/titlebar.php:69
+#: framework/inc/titlebar.php:159 framework/inc/titlebar.php:262
+msgid "DeviantArt"
+msgstr ""
+
+#: 404.php:59 footer.php:76 search.php:65 framework/inc/titlebar-blog.php:98
+#: framework/inc/titlebar-blog.php:210 framework/inc/titlebar.php:72
+#: framework/inc/titlebar.php:162 framework/inc/titlebar.php:265
+msgid "Behance"
+msgstr ""
+
+#: 404.php:62 footer.php:79 search.php:68 framework/inc/titlebar-blog.php:101
+#: framework/inc/titlebar-blog.php:213 framework/inc/titlebar.php:75
+#: framework/inc/titlebar.php:165 framework/inc/titlebar.php:268
+msgid "Pinterest"
+msgstr ""
+
+#: 404.php:65 footer.php:82 search.php:71 framework/inc/titlebar-blog.php:104
+#: framework/inc/titlebar-blog.php:216 framework/inc/titlebar.php:78
+#: framework/inc/titlebar.php:168 framework/inc/titlebar.php:271
+msgid "PayPal"
+msgstr ""
+
+#: 404.php:68 footer.php:85 search.php:74 framework/inc/sharebox.php:34
+#: framework/inc/titlebar-blog.php:107 framework/inc/titlebar-blog.php:219
+#: framework/inc/titlebar.php:81 framework/inc/titlebar.php:171
+#: framework/inc/titlebar.php:274
+msgid "Delicious"
+msgstr ""
+
+#: 404.php:71 footer.php:88 search.php:77 framework/inc/titlebar-blog.php:110
+#: framework/inc/titlebar-blog.php:222 framework/inc/titlebar.php:84
+#: framework/inc/titlebar.php:174 framework/inc/titlebar.php:277
+msgid "RSS"
+msgstr ""
+
+#: 404.php:91
+msgid ""
+"Sorry, but we couldn't find the page you were looking for. Please check to "
+"make sure you've typed URL correctly. You may also want to search for what "
+"you are looking for."
+msgstr ""
+
+#: 404.php:94
+msgid "Go To Home Page"
+msgstr ""
+
+#: archive.php:33 index-medium.php:35 index.php:33 search.php:119
+msgid "Not Found"
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:17
+msgid "comments"
+msgstr ""
+
+#: comments.php:17
+msgid "<span>1</span> comment"
+msgstr ""
+
+#: comments.php:17
+msgid "<span>%</span> comments"
+msgstr ""
+
+#: comments.php:40
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:56
+msgid "Name (required)"
+msgstr ""
+
+#: comments.php:58
+msgid "E-Mail (required)"
+msgstr ""
+
+#: comments.php:60
+msgid "Website"
+msgstr ""
+
+#: comments.php:66
+msgid "Leave A Comment"
+msgstr ""
+
+#: comments.php:67
+msgid "Comment"
+msgstr ""
+
+#: comments.php:69
+msgid "Post comment"
+msgstr ""
+
+#: footer.php:101
+msgid "Back to Top"
+msgstr ""
+
+#: functions.php:108 framework/inc/plugin-activation.php:164
+msgid "Install Required Plugins"
+msgstr ""
+
+#: functions.php:109 framework/inc/plugin-activation.php:165
+msgid "Install Plugins"
+msgstr ""
+
+#: functions.php:110 framework/inc/plugin-activation.php:166
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: functions.php:111
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: functions.php:122 framework/inc/plugin-activation.php:178
+#: framework/inc/plugin-activation.php:490
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions.php:123 framework/inc/plugin-activation.php:179
+#: framework/inc/plugin-activation.php:1846
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions.php:124
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: functions.php:148
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: functions.php:151
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:151
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:158
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:186
+msgid "First"
+msgstr ""
+
+#: functions.php:187
+msgid "Previous"
+msgstr ""
+
+#: functions.php:195
+msgid "Next"
+msgstr ""
+
+#: functions.php:196
+msgid "Last"
+msgstr ""
+
+#: page-portfolio-col1.php:118 page-portfolio-col1.php:142
+#: framework/inc/portfolio/sidebyside.php:97
+#: framework/inc/portfolio/wide.php:92
+msgid "Tags"
+msgstr ""
+
+#: page-portfolio-col1.php:119 page-portfolio-col1.php:143
+msgid "View Details"
+msgstr ""
+
+#: page-portfolio-col1.php:121 page-portfolio-col1.php:145
+#: framework/inc/portfolio/sidebyside.php:105
+#: framework/inc/portfolio/wide.php:95
+msgid "Launch Project"
+msgstr ""
+
+#: search.php:6
+msgid "Search Results for"
+msgstr ""
+
+#: search.php:12
+msgid "You try to search"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: single.php:23 framework/inc/cpt-portfolio.php:63
+#: framework/inc/cpt-testimonial.php:38
+msgid "Author"
+msgstr ""
+
+#: admin/classes/class.options_machine.php:979
+msgid "Last Backup : "
+msgstr ""
+
+#: admin/classes/class.options_machine.php:1039
+msgid "Upload"
+msgstr ""
+
+#: admin/front-end/options.php:43 admin/front-end/options.php:67
+msgid "Save All Changes"
+msgstr ""
+
+#: admin/front-end/options.php:68
+msgid "Options Reset"
+msgstr ""
+
+#: admin/functions/functions.mediauploader.php:20
+msgid "Options"
+msgstr ""
+
+#: admin/functions/functions.mediauploader.php:210
+msgid "Gallery"
+msgstr ""
+
+#: admin/functions/functions.mediauploader.php:210
+msgid "Previously Uploaded"
+msgstr ""
+
+#: framework/inc/breadcrumbs.php:109
+msgid "Page"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:24
+#: framework/inc/portfolio/folio-filter.php:4
+msgid "Portfolio"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:25
+msgid "Portfolio Item"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:26
+msgid "Add New Item"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:27 framework/inc/cpt-portfolio.php:29
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:28
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:30
+msgid "View Item"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:31
+msgid "Search Portfolio"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:32
+msgid "No portfolio items found"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:33
+msgid "No portfolio items found in trash"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:61 framework/inc/cpt-testimonial.php:37
+msgid "Thumbnail"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:62
+msgid "Filter"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:64 framework/inc/shortcodes.php:1196
+msgid "Comments"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:65 framework/inc/cpt-testimonial.php:39
+#: framework/inc/portfolio/sidebyside.php:96
+#: framework/inc/portfolio/wide.php:91
+msgid "Date"
+msgstr ""
+
+#: framework/inc/cpt-portfolio.php:90 framework/inc/cpt-portfolio.php:99
+msgid "None"
+msgstr ""
+
+#: framework/inc/cpt-testimonial.php:15
+msgid "Testimonial"
+msgstr ""
+
+#: framework/inc/cpt-testimonial.php:67
+msgid "Testimonial Options"
+msgstr ""
+
+#: framework/inc/cpt-testimonial.php:73
+msgid "Name"
+msgstr ""
+
+#: framework/inc/cpt-testimonial.php:74
+msgid "Input author's name. "
+msgstr ""
+
+#: framework/inc/cpt-testimonial.php:80
+msgid "URL"
+msgstr ""
+
+#: framework/inc/cpt-testimonial.php:81
+msgid "Input author's URL."
+msgstr ""
+
+#: framework/inc/cpt-testimonial.php:87
+msgid "Info"
+msgstr ""
+
+#: framework/inc/cpt-testimonial.php:88
+msgid "Input author's additional info."
+msgstr ""
+
+#: framework/inc/cpt-testimonial.php:118
+msgid "Please fill additional fields for testimonial. "
+msgstr ""
+
+#: framework/inc/meta.php:1
+msgid "View all posts by"
+msgstr ""
+
+#: framework/inc/meta.php:1
+msgid "No Comments"
+msgstr ""
+
+#: framework/inc/meta.php:1
+msgid "1 Comment"
+msgstr ""
+
+#: framework/inc/meta.php:1
+msgid "% Comments"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:517
+#: framework/inc/plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1956
+#: framework/inc/plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1956
+#: framework/inc/plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/inc/plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/inc/sharebox.php:4
+msgid "Share this post"
+msgstr ""
+
+#: framework/inc/sharebox.php:24
+msgid "Reddit"
+msgstr ""
+
+#: framework/inc/sharebox.php:44 framework/inc/widgets/contact.php:36
+msgid "E-Mail"
+msgstr ""
+
+#: framework/inc/sidebars.php:13
+msgid "Blog Widgets"
+msgstr ""
+
+#: framework/inc/sidebars.php:15
+msgid "These are widgets for the Blog sidebar."
+msgstr ""
+
+#: framework/inc/sidebars.php:26
+msgid "Footer Widgets"
+msgstr ""
+
+#: framework/inc/sidebars.php:28
+msgid "These are widgets for the Footer."
+msgstr ""
+
+#: framework/inc/titlebar-blog.php:18 framework/inc/titlebar-blog.php:130
+msgid "Category Archive for"
+msgstr ""
+
+#: framework/inc/titlebar-blog.php:21 framework/inc/titlebar-blog.php:133
+msgid "Posts Tagged"
+msgstr ""
+
+#: framework/inc/titlebar-blog.php:24 framework/inc/titlebar-blog.php:27
+#: framework/inc/titlebar-blog.php:30 framework/inc/titlebar-blog.php:136
+#: framework/inc/titlebar-blog.php:139 framework/inc/titlebar-blog.php:142
+msgid "Archive for"
+msgstr ""
+
+#: framework/inc/titlebar-blog.php:33 framework/inc/titlebar-blog.php:145
+msgid "Author Archive"
+msgstr ""
+
+#: framework/inc/titlebar-blog.php:36 framework/inc/titlebar-blog.php:148
+msgid "Blog Archives"
+msgstr ""
+
+#: framework/inc/meta-box/inc/classes/meta-box.php:284
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: framework/inc/meta-box/inc/classes/meta-box.php:342
+msgid "+"
+msgstr ""
+
+#: framework/inc/meta-box/inc/classes/meta-box.php:364
+msgid "&#8211;"
+msgstr ""
+
+#: framework/inc/meta-box/inc/fields/file.php:65
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: framework/inc/meta-box/inc/fields/image.php:64
+msgid "Order saved"
+msgstr ""
+
+#: framework/inc/meta-box/inc/fields/map.php:46
+msgid "Find Address"
+msgstr ""
+
+#: framework/inc/meta-box/inc/fields/select-advanced.php:82
+msgid "Select a value"
+msgstr ""
+
+#: framework/inc/portfolio/folio-filter.php:6
+msgid "All Projects"
+msgstr ""
+
+#: framework/inc/portfolio/related-posts.php:18
+msgid "Related Projects"
+msgstr ""
+
+#: framework/inc/portfolio/sidebyside.php:3 framework/inc/portfolio/wide.php:3
+msgid "Portfolio item page"
+msgstr ""
+
+#: framework/inc/portfolio/sidebyside.php:79
+#: framework/inc/portfolio/wide.php:71
+msgid "Project Details"
+msgstr ""
+
+#: framework/inc/portfolio/sidebyside.php:82
+#: framework/inc/portfolio/wide.php:77
+msgid "Designer"
+msgstr ""
+
+#: framework/inc/portfolio/sidebyside.php:85
+#: framework/inc/portfolio/wide.php:80
+msgid "Project manager"
+msgstr ""
+
+#: framework/inc/portfolio/sidebyside.php:88
+#: framework/inc/portfolio/wide.php:83
+msgid "Coder"
+msgstr ""
+
+#: framework/inc/portfolio/sidebyside.php:91
+#: framework/inc/portfolio/wide.php:86
+msgid "Art director"
+msgstr ""
+
+#: framework/inc/portfolio/sidebyside.php:94
+#: framework/inc/portfolio/wide.php:89
+msgid "Client"
+msgstr ""
+
+#: framework/inc/post-format/related-posts.php:16
+msgid "Related Posts"
+msgstr ""
+
+#: framework/inc/widgets/contact.php:8
+msgid "Display your Contact Informations"
+msgstr ""
+
+#: framework/inc/widgets/contact.php:10
+msgid "Energy-Contact"
+msgstr ""
+
+#: framework/inc/widgets/contact.php:28
+msgid "Phone"
+msgstr ""
+
+#: framework/inc/widgets/contact.php:32
+msgid "Fax"
+msgstr ""
+
+#: framework/inc/widgets/contact.php:40
+msgid "Web"
+msgstr ""
+
+#: framework/inc/widgets/embed.php:7
+msgid "Display Embed Video"
+msgstr ""
+
+#: framework/inc/widgets/embed.php:9
+msgid "Energy-Embed"
+msgstr ""
+
+#: framework/inc/widgets/facebook.php:7
+msgid "Display Facebook Like Box"
+msgstr ""
+
+#: framework/inc/widgets/facebook.php:9
+msgid "Energy-Facebook"
+msgstr ""
+
+#: framework/inc/widgets/flickr.php:7
+msgid "Display your latest Flickr Photos"
+msgstr ""
+
+#: framework/inc/widgets/flickr.php:9
+msgid "Energy-Flickr"
+msgstr ""
+
+#: framework/inc/widgets/flickr.php:54
+msgid "Flickr idGettr"
+msgstr ""
+
+#: framework/inc/widgets/portfolio.php:8
+msgid "Display your latest Portfolio"
+msgstr ""
+
+#: framework/inc/widgets/portfolio.php:10
+msgid "Energy-Portfolio"
+msgstr ""
+
+#: framework/inc/widgets/sponsor.php:8
+msgid "Display your Sponsor Links"
+msgstr ""
+
+#: framework/inc/widgets/sponsor.php:10
+msgid "Energy-Sponsor"
+msgstr ""
+
+#: framework/inc/widgets/twitter.php:7
+msgid "Display your latest Tweets"
+msgstr ""
+
+#: framework/inc/widgets/twitter.php:9
+msgid "Energy-Twitter"
+msgstr ""
+
+#: includes/revslider/inc_php/revslider_widget.class.php:8
+msgid "Displays a revolution slider on the page"
+msgstr ""
+
+#: includes/revslider/inc_php/revslider_widget.class.php:9
+msgid "Revolution Slider"
+msgstr ""
+
+#: includes/revslider/inc_php/revslider_widget.class.php:22
+msgid "No sliders found, Please create a slider"
+msgstr ""

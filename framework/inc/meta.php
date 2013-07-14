@@ -1,0 +1,3 @@
+<span class="meta-date"><i class="icon-calendar"></i><time datetime="<?php echo date(DATE_W3C); ?>" class="updated"><?php the_time(get_option('date_format')); ?></time></span><span class="meta-author"><i class="icon-user-1"></i><a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>" title="<?php _e('View all posts by', 'energy'); ?> <?php the_author(); ?>"><?php the_author(); ?></a></span><?php if ( comments_open() ) : ?><span class="meta-comment"><i class="icon-chat-1"></i><?php comments_popup_link(__('No Comments', 'energy'), __('1 Comment', 'energy'), __('% Comments', 'energy'), 'comments-link', ''); ?></span><?php endif; ?>
+
+	
