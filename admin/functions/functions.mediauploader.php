@@ -17,7 +17,7 @@ if ( ! function_exists( 'optionsframework_mlu_init' ) ) {
 	function optionsframework_mlu_init () {
 		register_post_type( 'options', array(
 			'labels' => array(
-				'name' => __( 'Options', 'energy' ),
+				'name' => __( 'Options', THEME_NAME ),
 			),
 			'public' => true,
 			'show_ui' => false,

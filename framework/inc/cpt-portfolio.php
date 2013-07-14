@@ -21,16 +21,16 @@ function portfolio_register() {
 	global $options_data;
 	
 	$labels = array(
-		'name' => __( 'Portfolio', 'energy-framework' ),
-		'singular_name' => __( 'Portfolio Item', 'energy-framework' ),
-		'add_new' => __( 'Add New Item', 'energy-framework' ),
-		'add_new_item' => __( 'Add New Portfolio Item', 'energy-framework' ),
-		'edit_item' => __( 'Edit Portfolio Item', 'energy-framework' ),
-		'new_item' => __( 'Add New Portfolio Item', 'energy-framework' ),
-		'view_item' => __( 'View Item', 'energy-framework' ),
-		'search_items' => __( 'Search Portfolio', 'energy-framework' ),
-		'not_found' => __( 'No portfolio items found', 'energy-framework' ),
-		'not_found_in_trash' => __( 'No portfolio items found in trash', 'energy-framework' )
+		'name' => __( 'Portfolio', THEME_NAME ),
+		'singular_name' => __( 'Portfolio Item', THEME_NAME ),
+		'add_new' => __( 'Add New Item', THEME_NAME ),
+		'add_new_item' => __( 'Add New Portfolio Item', THEME_NAME ),
+		'edit_item' => __( 'Edit Portfolio Item', THEME_NAME ),
+		'new_item' => __( 'Add New Portfolio Item', THEME_NAME ),
+		'view_item' => __( 'View Item', THEME_NAME ),
+		'search_items' => __( 'Search Portfolio', THEME_NAME ),
+		'not_found' => __( 'No portfolio items found', THEME_NAME ),
+		'not_found_in_trash' => __( 'No portfolio items found in trash', THEME_NAME )
 	);
 	
     $args = array(  

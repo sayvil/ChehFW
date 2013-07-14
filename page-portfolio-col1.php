@@ -115,10 +115,10 @@ Template Name: Portfolio 1 Column
 					</div>
 					<div class="portfolio-desc">
 				  		<?php the_excerpt(); ?>
-				  		<div class="portfolio-tags"><strong><?php _e('Tags', 'energy'); ?>: </strong><?php $taxonomy = strip_tags( get_the_term_list($post->ID, 'portfolio_filter', '', ', ', '') ); echo $taxonomy; ?></div>
-				  		<a href="<?php the_permalink() ?>" class="button"><?php _e('View Details', 'energy'); ?></a>
+				  		<div class="portfolio-tags"><strong><?php _e('Tags', THEME_NAME); ?>: </strong><?php $taxonomy = strip_tags( get_the_term_list($post->ID, 'portfolio_filter', '', ', ', '') ); echo $taxonomy; ?></div>
+				  		<a href="<?php the_permalink() ?>" class="button"><?php _e('View Details', THEME_NAME); ?></a>
 						<?php if( get_post_meta( get_the_ID(), 'energy_portfolio-link', true ) != "") { ?>
-						<a href="<?php echo get_post_meta( get_the_ID(), 'energy_portfolio-link', true ); ?>" target="_blank" class="button"><?php _e('Launch Project', 'energy'); ?></a>
+						<a href="<?php echo get_post_meta( get_the_ID(), 'energy_portfolio-link', true ); ?>" target="_blank" class="button"><?php _e('Launch Project', THEME_NAME); ?></a>
 						<?php } ?>	
 				  	</div>
 				  	<?php echo $embedd; ?>
@@ -139,10 +139,10 @@ Template Name: Portfolio 1 Column
 					</div>
 					<div class="portfolio-desc">
 				  		<?php the_excerpt(); ?>
-				  		<div class="portfolio-tags"><strong><?php _e('Tags', 'energy'); ?>: </strong><?php $taxonomy = strip_tags( get_the_term_list($post->ID, 'portfolio_filter', '', ', ', '') ); echo $taxonomy; ?></div>
-				  		<a href="<?php the_permalink() ?>" class="button"><?php _e('View Details', 'energy'); ?></a>
+				  		<div class="portfolio-tags"><strong><?php _e('Tags', THEME_NAME); ?>: </strong><?php $taxonomy = strip_tags( get_the_term_list($post->ID, 'portfolio_filter', '', ', ', '') ); echo $taxonomy; ?></div>
+				  		<a href="<?php the_permalink() ?>" class="button"><?php _e('View Details', THEME_NAME); ?></a>
 						<?php if( get_post_meta( get_the_ID(), 'energy_portfolio-link', true ) != "") { ?>
-						<a href="<?php echo get_post_meta( get_the_ID(), 'energy_portfolio-link', true ); ?>" target="_blank" class="button"><?php _e('Launch Project', 'energy'); ?></a>
+						<a href="<?php echo get_post_meta( get_the_ID(), 'energy_portfolio-link', true ); ?>" target="_blank" class="button"><?php _e('Launch Project', THEME_NAME); ?></a>
 						<?php } ?>	
 				  	</div>
 				  	<?php echo $embedd; ?>

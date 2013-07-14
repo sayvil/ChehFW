@@ -1,6 +1,6 @@
 <div class="portfolio-sidebyside clearfix">
 	<div class="sixteen columns">
-		<h3 class="title"><span><?php _e('Portfolio item page', 'energy'); ?></span></h3>
+		<h3 class="title"><span><?php _e('Portfolio item page', THEME_NAME); ?></span></h3>
 	</div>
 	<div class="ten columns">
 	
@@ -76,25 +76,25 @@
 	<div class="six columns">
 		<?php if( get_post_meta( get_the_ID(), 'energy_portfolio-details', true ) == 1 ) { ?>
 		<div class="portfolio-detail-attributes">
-			<h4><span><?php _e('Project Details', 'energy'); ?></span></h4>
+			<h4><span><?php _e('Project Details', THEME_NAME); ?></span></h4>
 				<ul>
 					<?php if( get_post_meta( get_the_ID(), 'energy_portfolio-designer', true ) != "") { ?>
-					<li><strong><?php _e('Designer', 'energy'); ?>:</strong> <em><?php echo get_post_meta( get_the_ID(), 'energy_portfolio-designer', true ); ?></em></li>
+					<li><strong><?php _e('Designer', THEME_NAME); ?>:</strong> <em><?php echo get_post_meta( get_the_ID(), 'energy_portfolio-designer', true ); ?></em></li>
 					<?php } ?>
 					<?php if( get_post_meta( get_the_ID(), 'energy_portfolio-manager', true ) != "") { ?>
-					<li><strong><?php _e('Project manager', 'energy'); ?>:</strong> <em><?php echo get_post_meta( get_the_ID(), 'energy_portfolio-manager', true ); ?></em></li>
+					<li><strong><?php _e('Project manager', THEME_NAME); ?>:</strong> <em><?php echo get_post_meta( get_the_ID(), 'energy_portfolio-manager', true ); ?></em></li>
 					<?php } ?>
 					<?php if( get_post_meta( get_the_ID(), 'energy_portfolio-coder', true ) != "") { ?>
-					<li><strong><?php _e('Coder', 'energy'); ?>:</strong> <em><?php echo get_post_meta( get_the_ID(), 'energy_portfolio-coder', true ); ?></em></li>
+					<li><strong><?php _e('Coder', THEME_NAME); ?>:</strong> <em><?php echo get_post_meta( get_the_ID(), 'energy_portfolio-coder', true ); ?></em></li>
 					<?php } ?>
 					<?php if( get_post_meta( get_the_ID(), 'energy_portfolio-director', true ) != "") { ?>
-					<li><strong><?php _e('Art director', 'energy'); ?>:</strong> <em><?php echo get_post_meta( get_the_ID(), 'energy_portfolio-director', true ); ?></em></li>
+					<li><strong><?php _e('Art director', THEME_NAME); ?>:</strong> <em><?php echo get_post_meta( get_the_ID(), 'energy_portfolio-director', true ); ?></em></li>
 					<?php } ?>
 					<?php if( get_post_meta( get_the_ID(), 'energy_portfolio-client', true ) != "") { ?>
-					<li><strong><?php _e('Client', 'energy'); ?>:</strong> <em><?php echo get_post_meta( get_the_ID(), 'energy_portfolio-client', true ); ?></em></li>
+					<li><strong><?php _e('Client', THEME_NAME); ?>:</strong> <em><?php echo get_post_meta( get_the_ID(), 'energy_portfolio-client', true ); ?></em></li>
 					<?php } ?>	
-					<li><strong><?php _e('Date', 'energy'); ?>:</strong> <em><?php the_date() ?></em></li>
-					<li><strong><?php _e('Tags', 'energy'); ?>:</strong> <em><?php $taxonomy = strip_tags( get_the_term_list($post->ID, 'portfolio_filter', '', ', ', '') ); echo $taxonomy; ?></em></li>
+					<li><strong><?php _e('Date', THEME_NAME); ?>:</strong> <em><?php the_date() ?></em></li>
+					<li><strong><?php _e('Tags', THEME_NAME); ?>:</strong> <em><?php $taxonomy = strip_tags( get_the_term_list($post->ID, 'portfolio_filter', '', ', ', '') ); echo $taxonomy; ?></em></li>
 				</ul>
 									
 		</div>
@@ -102,7 +102,7 @@
 		<div class="portfolio-detail-description">
 			<div class="portfolio-detail-description-text"><?php the_content(); ?></div>
 			<?php if( get_post_meta( get_the_ID(), 'energy_portfolio-link', true ) != "") { ?>
-				<a href="<?php echo get_post_meta( get_the_ID(), 'energy_portfolio-link', true ); ?>" target="_blank" class="button"><?php _e('Launch Project', 'energy'); ?></a>
+				<a href="<?php echo get_post_meta( get_the_ID(), 'energy_portfolio-link', true ); ?>" target="_blank" class="button"><?php _e('Launch Project', THEME_NAME); ?></a>
 			<?php } ?>
 		</div>
 

@@ -40,7 +40,7 @@
 			<img style="display:none" src="<?php echo ADMIN_DIR; ?>assets/images/loading-bottom.gif" class="ajax-loading-img ajax-loading-img-bottom" alt="Working..." />
 
 			<button id="of_save" type="button" class="button-primary">
-				<?php _e('Save All Changes', 'energy');?>
+				<?php _e('Save All Changes', THEME_NAME);?>
 			</button>
 			
 		</div><!--.info_bar--> 	
@@ -64,8 +64,8 @@
 		<div class="save_bar"> 
 		
 			<img style="display:none" src="<?php echo ADMIN_DIR; ?>assets/images/loading-bottom.gif" class="ajax-loading-img ajax-loading-img-bottom" alt="Working..." />
-			<button id ="of_save" type="button" class="button-primary"><?php _e('Save All Changes', 'energy');?></button>			
-			<button id ="of_reset" type="button" class="button submit-button reset-button" ><?php _e('Options Reset', 'energy');?></button>
+			<button id ="of_save" type="button" class="button-primary"><?php _e('Save All Changes', THEME_NAME);?></button>			
+			<button id ="of_reset" type="button" class="button submit-button reset-button" ><?php _e('Options Reset', THEME_NAME);?></button>
 			<img style="display:none" src="<?php echo ADMIN_DIR; ?>assets/images/loading-bottom.gif" class="ajax-reset-loading-img ajax-loading-img-bottom" alt="Working..." />
 			
 		</div><!--.save_bar--> 

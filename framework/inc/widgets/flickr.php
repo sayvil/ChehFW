@@ -4,9 +4,9 @@ class widget_flickr extends WP_Widget {
 	
 	// Widget Settings
 	function widget_flickr() {
-		$widget_ops = array('description' => __('Display your latest Flickr Photos', 'energy') );
+		$widget_ops = array('description' => __('Display your latest Flickr Photos', THEME_NAME) );
 		$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'flickr' );
-		$this->WP_Widget( 'flickr', __('Energy-Flickr', 'energy'), $widget_ops, $control_ops );
+		$this->WP_Widget( 'flickr', __('Energy-Flickr', THEME_NAME), $widget_ops, $control_ops );
 	}
 	
 	// Widget Output
@@ -51,7 +51,7 @@ class widget_flickr extends WP_Widget {
 		</p>
         <p>
 			<label for="<?php echo $this->get_field_id( 'username' ); ?>">Flickr ID:</label>
-			<input class="widefat" id="<?php echo $this->get_field_id( 'username' ); ?>" name="<?php echo $this->get_field_name( 'username' ); ?>" value="<?php echo $instance['username']; ?>" /><br /><a href="http://idgettr.com/" target="_blank"><?php _e('Flickr idGettr', 'energy'); ?></a>
+			<input class="widefat" id="<?php echo $this->get_field_id( 'username' ); ?>" name="<?php echo $this->get_field_name( 'username' ); ?>" value="<?php echo $instance['username']; ?>" /><br /><a href="http://idgettr.com/" target="_blank"><?php _e('Flickr idGettr', THEME_NAME); ?></a>
 		</p>
 
 		<p>

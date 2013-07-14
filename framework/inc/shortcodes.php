@@ -1193,7 +1193,7 @@ function energy_blog($atts){
 			
 			$out .= '<div class="blog-item-description">
 						<h4><a href="'.get_permalink().'" title="' . get_the_title() . '">'.get_the_title() .'</a></h4>
-						<span>'.get_the_date().' / '.get_comments_number().' '.__( 'Comments', 'energy' ) .'</span>
+						<span>'.get_the_date().' / '.get_comments_number().' '.__( 'Comments', THEME_NAME ) .'</span>
 					</div>';
 		
 		    $out .='<div class="blog-border"></div></div>';

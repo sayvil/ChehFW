@@ -10,9 +10,9 @@ if (function_exists('register_sidebar')) {
 	/* Blog Widgets */
 
 	register_sidebar(array(
-		'name' => __('Blog Widgets','energy-framework' ),
+		'name' => __('Blog Widgets', THEME_NAME ),
 		'id'   => 'blog-widgets',
-		'description'   => __( 'These are widgets for the Blog sidebar.','energy-framework' ),
+		'description'   => __( 'These are widgets for the Blog sidebar.', THEME_NAME ),
 		'before_widget' => '<div id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h3 class="title"><span>',
@@ -23,9 +23,9 @@ if (function_exists('register_sidebar')) {
 	/* Footer Widgets */
 	
 	register_sidebar(array(
-	   'name' => __('Footer Widgets','energy-framework' ),
+	   'name' => __('Footer Widgets', THEME_NAME ),
 	   'id'   => 'footer-widgets',
-		'description'   => __( 'These are widgets for the Footer.','energy-framework' ),
+		'description'   => __( 'These are widgets for the Footer.', THEME_NAME ),
 		'before_widget' => '<div id="%1$s" class="widget %2$s four columns">',
 		'after_widget'  => '</div>',
 		'before_title'  => '<h3>',

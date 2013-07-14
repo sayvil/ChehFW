@@ -5,7 +5,7 @@
 			die ('Please do not load this page directly. Thanks!');
 	
 		if ( post_password_required() ) { ?>
-			<?php _e('This post is password protected. Enter the password to view comments.', 'energy'); ?>
+			<?php _e('This post is password protected. Enter the password to view comments.', THEME_NAME); ?>
 		<?php
 			return;
 		}
@@ -14,7 +14,7 @@
 	<?php if ( have_comments() ) : ?>
 		
 		
-		<h3 id="comments" class="title"><span><?php comments_number(__('comments', 'energy'), __('<span>1</span> comment', 'energy'), __('<span>%</span> comments', 'energy') );?></span></h3>
+		<h3 id="comments" class="title"><span><?php comments_number(__('comments', THEME_NAME), __('<span>1</span> comment', THEME_NAME), __('<span>%</span> comments', THEME_NAME) );?></span></h3>
 	
 		<div class="navigation">
 			<div class="next-posts"><?php previous_comments_link() ?></div>
@@ -37,7 +37,7 @@
 			<!-- If comments are open, but there are no comments. -->
 	
 		 <?php else : // comments are closed ?>
-			<p class="hidden"><?php _e('Comments are closed.', 'energy'); ?></p>
+			<p class="hidden"><?php _e('Comments are closed.', THEME_NAME); ?></p>
 	
 		<?php endif; ?>
 		
@@ -53,20 +53,20 @@
 
 		//Custom Fields
 		$fields =  array(
-			'author'=> '<div id="respond-inputs" class="clearfix"><p><label for="author">' . __('Name (required)', 'energy') . '</label><input id="author" name="author" type="text" value="" size="30"' . $aria_req . ' /></p>',
+			'author'=> '<div id="respond-inputs" class="clearfix"><p><label for="author">' . __('Name (required)', THEME_NAME) . '</label><input id="author" name="author" type="text" value="" size="30"' . $aria_req . ' /></p>',
 			
-			'email' => '<p><label for="email">' . __('E-Mail (required)', 'energy') . '</label><input id="email" name="email" type="text" value="" size="30"' . $aria_req . ' /></p>',
+			'email' => '<p><label for="email">' . __('E-Mail (required)', THEME_NAME) . '</label><input id="email" name="email" type="text" value="" size="30"' . $aria_req . ' /></p>',
 			
-			'url' 	=> '<p><label for="url">' . __('Website', 'energy') . '</label><input id="url" name="url" type="text" value="" size="30" /></p></div>',
+			'url' 	=> '<p><label for="url">' . __('Website', THEME_NAME) . '</label><input id="url" name="url" type="text" value="" size="30" /></p></div>',
 		);
 
 		//Comment Form Args
         $comments_args = array(
 			'fields' => $fields,
-			'title_reply'=>'<h3 class="title"><span>'. __('Leave A Comment', 'energy') .'</span></h4>',
-			'comment_field' => '<div id="respond-textarea"><p><label for="comment">' . __('Comment', 'energy') . '</label><textarea id="comment" name="comment" aria-required="true" cols="58" rows="10" tabindex="4"></textarea></p></div>',
+			'title_reply'=>'<h3 class="title"><span>'. __('Leave A Comment', THEME_NAME) .'</span></h4>',
+			'comment_field' => '<div id="respond-textarea"><p><label for="comment">' . __('Comment', THEME_NAME) . '</label><textarea id="comment" name="comment" aria-required="true" cols="58" rows="10" tabindex="4"></textarea></p></div>',
 			'comment_notes_after' => '',
-			'label_submit' => __('Post comment','energy')
+			'label_submit' => __('Post comment',THEME_NAME)
 		);
 		
 		// Show Comment Form

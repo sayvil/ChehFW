@@ -13,7 +13,7 @@
 		});
 	});
 </script>
-<h3 class="title"><span><?php _e('Related Posts', 'energy'); ?></span></h3>
+<h3 class="title"><span><?php _e('Related Posts', THEME_NAME); ?></span></h3>
 <div id="related-posts">
 	
 		<?php

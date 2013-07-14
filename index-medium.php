@@ -32,7 +32,7 @@ $blogtype = 'medium';
 		
 			<?php else : ?>
 		
-				<h2><?php _e('Not Found', 'energy') ?></h2>
+				<h2><?php _e('Not Found', THEME_NAME) ?></h2>
 		
 			<?php endif; ?>
 			<?php $wp_query = null; $wp_query = $temp;?>

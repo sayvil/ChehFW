@@ -5,9 +5,9 @@ class widget_contact extends WP_Widget {
 	
 	// Widget Settings
 	function widget_contact() {
-		$widget_ops = array('description' => __('Display your Contact Informations', 'energy') );
+		$widget_ops = array('description' => __('Display your Contact Informations', THEME_NAME) );
 		$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'contact' );
-		$this->WP_Widget( 'contact', __('Energy-Contact', 'energy'), $widget_ops, $control_ops );
+		$this->WP_Widget( 'contact', __('Energy-Contact', THEME_NAME), $widget_ops, $control_ops );
 	}
 	
 	// Widget Output
@@ -25,19 +25,19 @@ class widget_contact extends WP_Widget {
 			<?php endif; ?>
 	
 			<?php if($instance['phone']): ?>
-			<span class="phone"><strong><?php _e( 'Phone', 'energy' ) ?>:</strong> <?php echo $instance['phone']; ?></span>
+			<span class="phone"><strong><?php _e( 'Phone', THEME_NAME ) ?>:</strong> <?php echo $instance['phone']; ?></span>
 			<?php endif; ?>
 	
 			<?php if($instance['fax']): ?>
-			<span class="fax"><strong><?php _e( 'Fax', 'energy' ) ?>:</strong> <?php echo $instance['fax']; ?></span>
+			<span class="fax"><strong><?php _e( 'Fax', THEME_NAME ) ?>:</strong> <?php echo $instance['fax']; ?></span>
 			<?php endif; ?>
 	
 			<?php if($instance['email']): ?>
-			<span class="email"><strong><?php _e( 'E-Mail', 'energy' ) ?>:</strong> <a href="mailto:<?php echo $instance['email']; ?>"><?php echo $instance['email']; ?></a></span>
+			<span class="email"><strong><?php _e( 'E-Mail', THEME_NAME ) ?>:</strong> <a href="mailto:<?php echo $instance['email']; ?>"><?php echo $instance['email']; ?></a></span>
 			<?php endif; ?>
 	
 			<?php if($instance['web']): ?>
-			<span class="web"><strong><?php _e( 'Web', 'energy' ) ?>:</strong> <a href="<?php echo $instance['web']; ?>"><?php echo $instance['web']; ?></a></span>
+			<span class="web"><strong><?php _e( 'Web', THEME_NAME ) ?>:</strong> <a href="<?php echo $instance['web']; ?>"><?php echo $instance['web']; ?></a></span>
 			<?php endif; ?>
 		</address>
 		

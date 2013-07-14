@@ -12,7 +12,7 @@ add_action('init', 'energy_post_type_testi');
 function energy_post_type_testi() {
 	register_post_type( 'testi',
                 array( 
-				'label' => __('Testimonial', 'Theme'), 
+				'label' => __('Testimonial', THEME_NAME), 
 				'public' => true, 
 				'show_ui' => true,
 				'show_in_nav_menus' => false,

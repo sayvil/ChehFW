@@ -8,7 +8,7 @@
 			parent::__construct(
 				'widget_twitter', // Base ID
 				'Energy-Twitter', // Name
-				array( 'description' => __( 'Display recent tweets', 'energy' ), ) // Args
+				array( 'description' => __( 'Display recent tweets', THEME_NAME ), ) // Args
 			);
 		}
 

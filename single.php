@@ -20,7 +20,7 @@
 				<?php if($options_data['check_authorinfo'] == true) { ?>
 			
 				<div id="author-info" class="clearfix">
-						<h3 class="title"><?php _e('Author', 'energy'); ?></h3>
+						<h3 class="title"><?php _e('Author', THEME_NAME); ?></h3>
 					    <div class="author-image">
 					    	<a href="<?php echo get_author_posts_url(get_the_author_meta( 'ID' )); ?>"><?php echo get_avatar( get_the_author_meta('user_email'), '100', '' ); ?></a>
 					    </div>   

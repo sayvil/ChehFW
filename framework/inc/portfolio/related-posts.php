@@ -15,7 +15,7 @@
 </script>
 <div id="portfolio-related-post">
 				
-				<h3 class="title"><span><?php _e('Related Projects', 'energy'); ?></span></h3>
+				<h3 class="title"><span><?php _e('Related Projects', THEME_NAME); ?></span></h3>
 			
 				<?php
 				$terms = get_the_terms( $post->ID , 'portfolio_filter', 'string');

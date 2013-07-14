@@ -5,9 +5,9 @@ class widget_sponsor extends WP_Widget_Text {
 	
 	// Widget Settings
 	function widget_sponsor() {
-		$widget_ops = array('description' => __('Display your Sponsor Links', 'energy') );
+		$widget_ops = array('description' => __('Display your Sponsor Links', THEME_NAME) );
 		$control_ops = array( 'width' => 300, 'height' => 350, 'id_base' => 'sponsor' );
-		$this->WP_Widget( 'sponsor', __('Energy-Sponsor', 'energy'), $widget_ops, $control_ops );
+		$this->WP_Widget( 'sponsor', __('Energy-Sponsor', THEME_NAME), $widget_ops, $control_ops );
 	}
 	
 	// Widget Output
